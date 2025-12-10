@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eaeaea;
+    color: #333;
+}
+
+/* MAIN */
+.section-main {
+    background: #556b2f;
+    padding: 40px 0 120px;
+    text-align: center;
+}
+.section-main-logo { width: 160px; }
+.section-main-title {
+    margin: 40px 0 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+}
+.section-main-subtitle { color: #fff; margin-bottom: 40px; }
+.section-main-button {
+    background: #8fbc8f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+/* SECOND SECTION */
+.second-section {
+    display: flex;
+    padding: 100px 50px;
+    align-items: center;
+}
+.second-section-img {
+    width: 500px;
+    border: 5px solid #556b2f;
+    border-radius: 20px;
+}
+.second-section-info { margin-left: 30px; max-width: 600px; }
+.section-subtitle {
+    margin: 0 0 10px;
+    color: #8fbc8f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-title {
+    margin-bottom: 40px;
+    color: #556b2f;
+    font-size: 32px;
+    font-weight: 700;
+}
+.second-section-text { color: #666; }
+.second-section-name { color: #556b2f; }
+.second-section-name2 {
+    color: #8fbc8f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* THIRD SECTION */
+.third-section {
+    background: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+.third-section-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.third-section-book {
+    margin: 10px 20px;
+    text-align: center;
+}
+.book-img { height: 200px; }
+.book-title { color: #556b2f; font-size: 22px; font-weight: 700; }
+.book-author { color: #666; }
+.book-price { color: #8fbc8f; font-weight: 700; }
+
+/* FOOTER */
+.footer {
+    background: #2f4f4f;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer-title { color: #fff; }
+.footer-text {
+    color: #8fbc8f;
+    width: 600px;
+    margin: 0 auto 20px;
+}
+.footer-text-main { color: #fff; }
+
+.form-title {
+    margin: 20px 0 10px;
+    color: #fff;
+    font-weight: 700;
+}
+.form-input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #2f4f4f;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.footer-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #8fbc8f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
